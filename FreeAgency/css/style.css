@@ -1,0 +1,566 @@
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+/*-------------------------------------
+-----------------NAV------------------
+---------------------------------------*/
+body {
+    font-family: Helvetica,sans-serif;
+}
+
+section.container , section.container-fluid {
+    padding: 0 ;
+}
+
+div.headfon {
+    margin: -15px;
+    background: #f0f2f4;
+}
+
+div.head , div.headflex {
+    height: 50px;
+}
+
+div.head ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.head li {
+    display: inline-block;
+    padding: 8px 18px 12px 0px;
+    height: 50px;
+}
+
+div.head li.border {
+    border-right: 1px solid #e2e2e2;
+}
+
+div.head li.icoph {
+    padding-right: 12px;
+}
+
+div.head li.icomail {
+    padding-right: 12px;
+    padding-left: 20px;
+}
+
+div.head li.fb {
+    padding: 0;
+}
+
+/*-------------------------------------
+-----------------header------------------
+---------------------------------------*/
+
+div.whitefone {
+    background: #fff;
+    height: 135px;
+}
+
+
+div.whitefone div.business {
+    padding-top: 40px;
+}
+
+
+div.whitefone div.free ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.whitefone div.free li {
+    display: inline-block;
+    padding-left: 35px;
+    padding-top: 60px;
+}
+
+div.whitefone div.free li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+div.whitefone div.free li a.redblock {
+    background: #de2b24;
+    padding: 12px 40px 12px 20px;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+
+div.whitefone div.free li a.hov:hover {
+    color: #de2b24;
+}
+
+/*-------------------------------------
+-----------------weprov------------------
+---------------------------------------*/
+
+
+div.weprov {
+    background-image: url(../img/weprov.png);
+    height: 592px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div.weprov div.wepr {
+    text-align: center;
+}
+
+div.weprov div.wepr h3 {
+    padding-top: 175px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+div.weprov div.wepr p {
+    color: #fff;
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 40px;
+    font-weight: 100;
+}
+
+div.weprov div.wepr a {
+    color: #fff;
+    margin: 0;
+    background: #f8cd53;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 25px 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div.weprov div.wepr a:hover {
+    color: #5b4738;
+}
+
+/*-------------------------------------
+-----------------aboutas------------------
+---------------------------------------*/
+
+article.about {
+    background: #fff;
+}
+
+div.aboutas {
+    height: 545px;
+}
+
+div.aboutas div.head {
+    text-align: center;
+    padding-top: 103px;
+}
+
+div.aboutas div.head h3 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 12px;
+    color: #424242;
+}
+
+div.aboutas div.head img {
+    display: block;
+    margin: 0 auto;
+}
+
+div.aboutas div.head p {
+    font-size: 20px;
+    padding-bottom: 18px;
+    margin: 0;
+    color: #424242;
+}
+
+div.aboutas div.finger , div.aboutas div.book , div.aboutas div.mail {
+    text-align: center;
+    padding-top: 47px;
+}
+
+div.aboutas div.finger h3 , div.aboutas div.mail h3 , div.aboutas div.book h3{
+    font-weight: bold;
+    font-size: 22px;
+    color: #424242;
+    margin-bottom: 20px;
+}
+
+div.aboutas div.finger p , div.aboutas div.mail p , div.aboutas div.book p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
+    display: block;
+    width: 240px;
+    margin: 0 auto;
+}
+
+/*-------------------------------------
+-----------------step------------------
+---------------------------------------*/
+
+div.step {
+    height: 1410px;
+}
+
+div.step div.headstep {
+    text-align: center;
+}
+
+div.step div.headstep h3 {
+    padding-top: 90px;
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+    color: #424242 ;
+}
+
+div.step div.headstep p {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    color: #424242 ;
+}
+
+div.step div.headstep img {
+    padding-top: 20px;
+    margin-bottom: 45px;
+}
+
+div.step div.onesteptext {
+    background: #fff;
+    height: 235px;
+    background-image: url(../img/onestep.png);
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+div.step div.onesteptext p , div.step div.onesteptext h3 , div.step div.threesteptext h3 , div.step div.threesteptext p  {
+    display: block;
+    padding-left: 500px;
+    padding-right: 100px;
+}
+
+div.step div.twosteptext p , div.step div.twosteptext h3 , div.step div.foursteptext h3 , div.step div.foursteptext p  {
+    display: block;
+    padding-left: 75px;
+    padding-right: 430px;
+    text-align: right;
+}
+
+div.step div.redstep h3 {
+    margin: 0;
+    font-size: 18px;
+    padding-top: 70px;
+    font-weight: bold;
+    color: #424242;
+}
+
+div.step div.redstep p {
+    margin: 0;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #5c5c5c;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.step div.twosteptext {
+    background: #fff;
+    height: 235px;
+    background-image: url(../img/onestep2.png);
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    background-position: right;
+}
+
+div.step div.threesteptext {
+    background: #fff;
+    height: 235px;
+    background-image: url(../img/onestep3.png);
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+div.step div.foursteptext {
+    background: #fff;
+    height: 235px;
+    background-image: url(../img/onestep4.png);
+    background-repeat: no-repeat;
+    margin-bottom: 135px;
+    background-position: right;
+}
+
+/*-------------------------------------
+-----------------outwork------------------
+---------------------------------------*/
+
+
+div.workred {
+    height: 865px;
+    background: #de2b24;
+}
+
+div.workred div.work {
+    text-align: center;
+}
+
+div.workred div.outwork h3 {
+    padding-top: 90px;
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+    color: #fff ;
+}
+
+div.workred div.work p {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    color: #fff ;
+}
+
+div.workred div.work img {
+    padding-top: 20px;
+    margin-bottom: 45px;
+}
+
+
+.workred .line{
+	background: #f35e59 ;
+    height: 255px;
+    padding: 0;
+    margin: 0;
+}
+
+.workred .camera{
+    background-image: url(../img/camera.png);
+    background-repeat: no-repeat;
+}
+
+.workred .trine{
+    background-image: url(../img/trine.png);
+    background-repeat: no-repeat;
+}
+
+.workred .bridge{
+    background-image: url(../img/bridge.png);
+    background-repeat: no-repeat;
+}
+
+.workred .way{
+    background-image: url(../img/way.png);
+    background-repeat: no-repeat;
+}
+
+div.workred div.line img{
+    padding: 0;
+    margin: 0;
+    padding-top: 75px;
+}
+
+div.workred div.line h3{
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+div.workred div.line p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+/*-------------------------------------
+-----------------bluefone------------------
+---------------------------------------*/
+
+div.bluefone {
+    height: 850px;
+    background: #1287bf;
+}
+
+div.bluefone form {
+    background-image: url(../img/ramka.png);
+    height: 485px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 19px;
+}
+
+.bluefone .topt h3 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.bluefone .topt p {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding-top: 2px;
+}
+
+.bluefone .topt a {
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.bluefone form p {
+    color: #828282;
+    font-size: 15px;
+    padding: 80px 285px 42px 285px;
+    text-align: center;
+    margin: 0;
+}
+
+.bluefone form input {
+    display: inline-block;
+    margin-left: 342px;
+    width: 445px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.bluefone form button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background: #de2b24;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.bluefone form button:hover ,div.whitefone div.free li a.redblock:hover {
+    color: #000;
+}
+
+/*-------------------------------------
+-----------------blackfone------------------
+---------------------------------------*/
+
+div.blackfone {
+    background: #2a2a2a;
+    height: 490px;
+}
+
+div.blackfone h3 {
+    margin: 0;
+    font-size: 29px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 70px;
+    color: #fff;
+}
+
+div.blackfone ul {
+    margin: 0;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+div.blackfone li {
+    margin: 0;
+    display: inline-block;
+    padding-bottom: 50px;
+    padding: 0 10px;
+}
+
+div.blackfone li img {
+    border: 2px solid #515151;
+}
+
+div.blackfone li img:hover{
+    border: 2px solid #de2b24;
+}
+
+div.blackfone li a.fb img {
+    padding: 10px 15px;
+}
+
+div.blackfone li a.t img {
+    padding: 13px 13px;
+}
+
+div.blackfone li a.g img {
+    padding: 11px 13px;
+}
+
+div.blackfone li a.in img {
+    padding: 12px 14px;
+}
+div.blackfone p {
+    color: #878787;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 37px;
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+div.blackfone form {
+    text-align: center;
+}
+div.blackfone form input {
+    width: 685px;
+    background: #515151;
+    border: none;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+div.blackfone form button {
+    display: block;
+    border: 1px solid #515151;
+    background: #2a2a2a;
+    padding: 20px 35px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.blackfone form button:hover {
+    color: #2a2a2a;
+    background: #fff;
+}
+
+/*-------------------------------------
+-----------------footer------------------
+---------------------------------------*/
+
+.footer {
+    height: 67px;
+    background: #515151;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    color: #c6c6c6;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0;
+}
