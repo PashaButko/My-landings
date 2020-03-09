@@ -7,7 +7,7 @@ body {
     width: 1366px;
     margin: 0;
     padding: 0;
-    font-family: 'Asap', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 section.container-fluid {
@@ -313,16 +313,211 @@ section.portfolio button {
 }
 
 
+/*testimonials---------------------------------------------------------------*/
+
+.testimonials .testim {
+    text-align: center;
+    font-family: 'Asap' , sans-serif;
+}
+
+.testimonials .testim span {
+    width: 60px;
+    display: inline-block;
+    border: 2px solid #717171;
+    margin-top: 120px;
+    margin-bottom: 15px;
+}
+
+.testimonials .testim h2 {
+    font-size: 46px;
+    color: #717171;
+    font-weight: bold;
+    margin-bottom: 60px;
+    letter-spacing: 4px;
+}
+
+.testimonials .border  {
+    position: relative;
+    margin: auto;
+    width: 955px;
+    height: 350px;
+    border: 1px solid #000;
+}
+
+.testimonials .border .girl {
+    padding: 80px 30px 100px 180px;
+}
+
+.testimonials .border h2 , .testimonials .border h3 , .testimonials .border p {
+    position: absolute;
+    display: inline;
+}
+
+.testimonials .border h2 {
+    padding-top: 80px;
+    tab-size: 30px;
+    color: #373737;
+    text-transform: uppercase;
+}
+
+.testimonials .border h3 {
+    padding-top: 110px;
+    font-size: 12px;
+    color: #434343;
+}
+
+.testimonials .border p {
+    tab-size: 16px;
+    color: #7a7a7a;
+    width: 570px;
+    padding-top: 140px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.testimonials .border .point1 {
+    position: absolute;
+    bottom: 40px;
+    left: 457px;
+}
+
+.testimonials .border .point2 {
+    position: absolute;
+    bottom: 40px;
+    left: 475px;
+}
+
+.testimonials .border .point3 {
+    position: absolute;
+    bottom: 40px;
+    left: 493px;
+}
+
+
+.smile {
+    margin-top: 125px;
+    height: 300px;
+    background-color: #f6f6f6;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 160px;
+}
 
 
 
+/*footer---------------------------------------------------------------*/
 
 
+section.footer {
+    height: 780px;
+    background: url(../images/bgfoot.png);
+    background-repeat: no-repeat;
+}
 
+.footer .hbut {
+    text-align: center;
+    height: 285px;
+}
 
+.footer .hbut span {
+    width: 60px;
+    display: inline-block;
+    border: 2px solid #f0f0f0;
+    margin-top: 120px;
+    margin-bottom: 15px;
+}
 
+.footer .hbut h2 {
+    font-size: 46px;
+    color: #f0f0f0;
+    font-weight: bold;
+    margin-bottom: 60px;
+    letter-spacing: 4px;
+}
 
+.footer .form {
+    height: 420px;
+    position: relative;
+    font-family: 'Asap', sans-serif;
 
+}
+
+.footer .form input[type="text"]{
+    height: 58px;
+    width: 372px;
+    position: absolute;
+    left: 300px;
+    font-size: 16px;
+    padding-left: 10px;
+    
+    
+}
+
+.footer .form input[type="email"]{
+    height: 58px;
+    width: 370px;
+    position: absolute;
+    left: 700px;
+    font-size: 16px;
+    padding-left: 10px;
+    
+}
+
+.footer .form textarea {
+    position: absolute;
+    height: 210px;
+    width: 770px;
+    left: 300px;
+    top: 85px;
+    resize: none;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 25px;
+    
+
+}
+
+.footer .form button {
+    height: 50px;
+    width: 125px;
+    position: absolute;
+    left: 637px;
+    top: 322px;
+    font-size: 16px;
+    border: none;
+    background-color: #fff;
+    color: #4d4d4d;
+    font-weight: bold;
+}
+.footer .form button img{
+   padding-left: 7px; 
+}
+
+.footer .bot {
+    position: absolute;
+    right: 30px;
+    top:  300px;
+    padding: 18px;
+    background-color: #fff;
+}
+
+.footer .footer {
+    height: 100px;
+    width: 1170px;
+    margin: 0 auto;
+    border-top: 1px solid #fff;
+}
+
+.footer .footer .icon {
+    padding-top: 25px;   
+}
+
+.footer .footer .text {
+    font-size: 16px;
+    color: #ffffff;
+    padding-left: 65px;
+    padding-top: 30px;
+}
 
 
 
